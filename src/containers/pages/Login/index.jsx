@@ -2,7 +2,15 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div>index</div>
+    <div>
+      <p>Login Page</p>
+      <button>
+            <Link to="/">Go to Dashboard</Link>
+          </button>
+          <button>
+            <Link to="/register">Go to Register</Link>
+          </button>
+    </div>
   )
 }
 
